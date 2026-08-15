@@ -1,4 +1,4 @@
-name: appimage.yml
+name: appimage
 
 on:
   push:
