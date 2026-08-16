@@ -33,11 +33,9 @@ jobs:
           sudo wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /usr/local/bin/appimagetool
           sudo chmod +x /usr/local/bin/appimagetool
           sudo pip3 install git+https://github.com/AppImageCrafters/appimage-builder.git
-
       - name: Compile AppImage
         run: |
           appimage-builder --recipe misc/AppImageBuilder.yml
-
       - uses: actions/upload-artifact@v4
         id: artifact-upload-step
         with:
