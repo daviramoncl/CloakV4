@@ -1,4 +1,4 @@
-name: windows
+name: windows!
 
 # build on c/cpp changes or workflow changes
 on:
