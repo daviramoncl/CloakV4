@@ -1,4 +1,4 @@
-name: linux
+name: linux1
 
 # build on c/cpp changes or workflow changes
 on:
